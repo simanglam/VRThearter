@@ -20,8 +20,14 @@ MonoBehaviour:
     rid: 7802964092656812105
   m_ActivePlatformGuid: 
   m_AdditionalPlatformBuildSettings: []
-  m_OverrideGlobalSceneList: 0
-  m_Scenes: []
+  m_OverrideGlobalSceneList: 1
+  m_Scenes:
+  - m_enabled: 0
+    m_path: Assets/Scenes/WallOpenScene.unity
+    m_guid: c19a7f141eb025c419f81a1ff47f2d9c
+  - m_enabled: 1
+    m_path: Assets/Scenes/SecondScene.unity
+    m_guid: 3f5b4cbfbcc840d408cc9a33195f8cb6
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
@@ -34,8 +40,8 @@ MonoBehaviour:
       type: {class: AndroidPlatformBuildSettings, ns: UnityEditor.Android, asm: UnityEditor.Android.Extensions}
       data:
         m_Development: 1
-        m_ConnectProfiler: 0
-        m_BuildWithDeepProfilingSupport: 0
+        m_ConnectProfiler: 1
+        m_BuildWithDeepProfilingSupport: 1
         m_BuildWithCodeCoverage: 0
         m_AllowDebugging: 0
         m_WaitForManagedDebugger: 0
@@ -53,7 +59,7 @@ MonoBehaviour:
         m_ExportAsGoogleAndroidProject: 0
         m_DebugSymbolLevel: 1
         m_DebugSymbolFormat: 5
-        m_CurrentDeploymentTargetId: __builtin__target_default
+        m_CurrentDeploymentTargetId: FA6483N00255
         m_BuildType: 1
         m_LinkTimeOptimization: 0
         m_BuildAppBundle: 0

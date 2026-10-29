@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/WallOpenScene.unity
     guid: c19a7f141eb025c419f81a1ff47f2d9c
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 372152097d0495041bf757849fc83c1b, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 699f4d2073ed2e34ea7f7944795b868c, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 0cd83b950e22e5d4fafca6426e0541d4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1b6b91bfe81bb00488ecea8b85cbb5a9, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 82654f98cba394c4587e7b84cb23c279, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 07be45b6a2f469a4ab01ec1fee388fe1, type: 2}
