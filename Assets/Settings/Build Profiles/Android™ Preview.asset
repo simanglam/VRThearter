@@ -76,9 +76,12 @@ MonoBehaviour:
   m_AdditionalPlatformBuildSettings: []
   m_OverrideGlobalSceneList: 1
   m_Scenes:
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/Scenes/WallOpenScene.unity
     m_guid: c19a7f141eb025c419f81a1ff47f2d9c
+  - m_enabled: 1
+    m_path: Assets/Scenes/SecondScene.unity
+    m_guid: 3f5b4cbfbcc840d408cc9a33195f8cb6
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
@@ -234,6 +237,7 @@ MonoBehaviour:
     - line: '|   bundleVersion: 0.1.0'
     - line: '|   preloadedAssets:'
     - line: '|   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}'
+    - line: '|   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
     - line: '|   xboxOneDisableKinectGpuReservation: 1'
@@ -1022,7 +1026,7 @@ MonoBehaviour:
         m_ExportAsGoogleAndroidProject: 0
         m_DebugSymbolLevel: 1
         m_DebugSymbolFormat: 5
-        m_CurrentDeploymentTargetId: FA6483N00255
+        m_CurrentDeploymentTargetId: __builtin__target_default
         m_BuildType: 1
         m_LinkTimeOptimization: 0
         m_BuildAppBundle: 0

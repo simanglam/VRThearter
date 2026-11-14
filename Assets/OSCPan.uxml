@@ -1,8 +1,10 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <ui:VisualElement style="flex-grow: 1;">
-        <ui:Label text="Label"/>
-        <ui:Label text="Label"/>
-        <ui:Label text="Label"/>
-        <ui:Label text="Label"/>
+    <ui:VisualElement name="HI" style="flex-grow: 1;">
+        <ui:TextField label="Address" placeholder-text="filler text" name="Address" data-source="project://database/Assets/GamaData/NetworkData.asset?fileID=11400000&amp;guid=57845647f8d38724b8d650e2bf65239c&amp;type=2#NetworkData" data-source-path="address"/>
+        <ui:TextField label="port" placeholder-text="filler text" name="Port" data-source="project://database/Assets/GamaData/NetworkData.asset?fileID=11400000&amp;guid=57845647f8d38724b8d650e2bf65239c&amp;type=2#NetworkData" data-source-path="port"/>
+        <ui:VisualElement style="flex-grow: 1;"/>
+        <ui:Button text="Start Host" name="StartHost"/>
+        <ui:Button text="Start Server" name="StartServer"/>
+        <ui:Button text="Start Client" name="StartClient" data-source="project://database/Assets/GamaData/NetworkData.asset?fileID=11400000&amp;guid=57845647f8d38724b8d650e2bf65239c&amp;type=2#NetworkData"/>
     </ui:VisualElement>
 </ui:UXML>
