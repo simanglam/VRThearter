@@ -28,12 +28,15 @@ MonoBehaviour:
   - m_enabled: 0
     m_path: Assets/FirstScene.unity
     m_guid: daeb8377ef2354345aadab8e562cfd32
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/Scenes/SecondScene.unity
     m_guid: 3f5b4cbfbcc840d408cc9a33195f8cb6
-  - m_enabled: 0
+  - m_enabled: 1
     m_path: Assets/Scenes/TaskScene.unity
     m_guid: 23c1158f3c37a4f428941397825784cf
+  - m_enabled: 1
+    m_path: Assets/Scenes/Task.unity
+    m_guid: c84974bd79e6e9645a62e232eb876d0c
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
@@ -191,6 +194,9 @@ MonoBehaviour:
     - line: '|   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}'
     - line: '|   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}'
     - line: '|   - {fileID: -944628639613478452, guid: 699f4d2073ed2e34ea7f7944795b868c, type: 3}'
+    - line: '|   - {fileID: -1948259728365100771, guid: 82654f98cba394c4587e7b84cb23c279, type: 2}'
+    - line: '|   - {fileID: -8117432143921112425, guid: 1b6b91bfe81bb00488ecea8b85cbb5a9, type: 2}'
+    - line: '|   - {fileID: 11400000, guid: 07be45b6a2f469a4ab01ec1fee388fe1, type: 2}'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
     - line: '|   xboxOneDisableKinectGpuReservation: 1'

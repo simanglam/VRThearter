@@ -720,7 +720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e78888b9743d564482402fe284c9126, type: 3}
   m_Name: ViveCompositionLayerPassthrough Standalone
   m_EditorClassIdentifier: VIVE.OpenXR::VIVE.OpenXR.CompositionLayer.Passthrough.ViveCompositionLayerPassthrough
-  m_enabled: 1
+  m_enabled: 0
   nameUi: VIVE XR Composition Layer (Passthrough) (Deprecated)
   version: 1.0.0
   featureIdInternal: vive.openxr.feature.compositionlayer.passthrough
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9396fe2350b43e04db60471cc512653e, type: 3}
   m_Name: ViveInteractions Standalone
   m_EditorClassIdentifier: VIVE.OpenXR::VIVE.OpenXR.Interaction.ViveInteractions
-  m_enabled: 0
+  m_enabled: 1
   nameUi: VIVE XR - Interaction Group
   version: 2.5.0
   featureIdInternal: vive.openxr.feature.interactions
@@ -1500,7 +1500,7 @@ MonoBehaviour:
   - {fileID: -1610208334240963673}
   - {fileID: 7526006759251044993}
   customLoaderName: 
-  m_renderMode: 1
+  m_renderMode: 0
   m_latencyOptimization: 0
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -2247,7 +2247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b213d3e3c7f3109449eb46a4c8ee42f0, type: 3}
   m_Name: XrPerformanceSettingsFeature Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings.XrPerformanceSettingsFeature
-  m_enabled: 0
+  m_enabled: 1
   nameUi: XR Performance Settings
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.extension.performance_settings
@@ -2750,7 +2750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78bb1f33f93dd034d90b1d1a27a5eb27, type: 3}
   m_Name: VivePassthrough Standalone
   m_EditorClassIdentifier: VIVE.OpenXR::VIVE.OpenXR.Passthrough.VivePassthrough
-  m_enabled: 1
+  m_enabled: 0
   nameUi: VIVE XR Passthrough
   version: 1.0.0
   featureIdInternal: vive.openxr.feature.passthrough
